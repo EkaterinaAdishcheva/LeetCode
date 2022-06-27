@@ -19,7 +19,6 @@ class Solution:
         if head is None or head.next is None:
             return head
 
-        prev = None
         cur = head
         k = 0
         while cur is not None:
